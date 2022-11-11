@@ -1,0 +1,14 @@
+.nav-cnt {
+  display: flex;
+  width: 100%;
+  max-width: 1366px;
+  height: 73.03px;
+  align-items: center;
+  justify-content: space-around;
+  background: #ffffff;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+}

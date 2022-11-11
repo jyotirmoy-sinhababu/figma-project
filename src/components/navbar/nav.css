@@ -11,4 +11,14 @@
 .nav-links {
   display: flex;
   align-items: center;
+  gap: 20px;
+}
+
+.profile-cnt {
+  display: flex;
+  align-items: center;
+}
+
+.link {
+  text-decoration: none;
 }

@@ -15,7 +15,7 @@ const Nav = () => {
         <div className='nav-links'>
           <NavLink className='link'>My Assignment</NavLink>
           <NavLink className='link'>Chat with Mentor</NavLink>
-          <div>
+          <div className='profile-cnt'>
             <img className='' src={vector} alt=' logo' />
             <NavLink className='link'>Profile Name</NavLink>
           </div>

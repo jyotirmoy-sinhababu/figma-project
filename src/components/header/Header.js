@@ -1,10 +1,10 @@
 import React from 'react';
 import './header.css';
 
-const Header = () => {
+const Header = ({ txtContent }) => {
   return (
     <div className='header-cnt'>
-      <p className='head'>UI/UX {'>'} Refer & Earn</p>
+      <p className='head'>{txtContent}</p>
     </div>
   );
 };

@@ -6,7 +6,7 @@ const Card = ({ rupee, firstHeading, secondHeading }) => {
       <div>
         <img className='img' src={rupee} alt='' />
         <div>
-          <p>{firstHeading}</p>
+          {firstHeading ? <p>{firstHeading}</p> : null}
           <p> {secondHeading}</p>
         </div>
       </div>

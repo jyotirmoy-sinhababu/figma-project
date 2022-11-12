@@ -8,11 +8,12 @@ import Nav from '../../components/navbar/Nav';
 import Header from '../../components/header/Header';
 import TopPortion from '../../components/topportion/TopPortion';
 import Card from '../../components/card/Card';
+import { Outlet } from 'react-router-dom';
 const MainPage = () => {
   return (
     <>
       <Nav />
-      <Header />
+      <Header txtContent={'UI/UX > Refer & Earn'} />
       <TopPortion />
       <div className='card-cnt'>
         <h3>How does it work?</h3>
@@ -21,10 +22,11 @@ const MainPage = () => {
           firstHeading={'Invite your Friends'}
           secondHeading={'share the link tutedude.com with your friends'}
         />
-        <Card />
+        <Card rupee={rupee} secondHeading={'udgandu'} />
         <Card />
         <Card />
       </div>
+      <Outlet />
     </>
   );
 };

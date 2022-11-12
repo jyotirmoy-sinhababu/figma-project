@@ -24,8 +24,8 @@ const TopPortion = () => {
         </div>
         <div className='ref-code-cnt'>
           <p className='ref-code-txt'>Your Referral Code </p>
-          <div>
-            <p className='ref-code'>E D C H 5 4</p>
+          <div className='ref-border-cnt'>
+            <div className='ref-code-block'>E D C H 5 4</div>
           </div>
         </div>
       </div>

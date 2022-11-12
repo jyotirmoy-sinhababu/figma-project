@@ -58,10 +58,55 @@
 
 .first-cnt-num {
   width: 116px;
+  height: 38px;
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 500;
   font-size: 32px;
   line-height: 48px;
   color: #000000;
+}
+
+.ref-code-txt {
+  width: 228px;
+  height: 36px;
+  left: 766px;
+  top: 179px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  color: #800080;
+}
+
+.ref-code-block {
+  display: flex;
+  background-color: white;
+  border-radius: 10px;
+  width: 356px;
+  height: 58px;
+  text-align: center;
+  font-weight: 500;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* line-height: 30px; */
+  /* identical to box height */
+  letter-spacing: 10px;
+  color: #800080;
+}
+
+.ref-border-cnt {
+  /* width: fit-content;
+  height: fit-content; */
+  /* padding: 1px; */
+  background: linear-gradient(270deg, #800080 0%, #ff864c 100%);
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 358px;
+  height: 60px;
 }

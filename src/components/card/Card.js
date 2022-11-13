@@ -1,13 +1,13 @@
 import './card.css';
 
-const Card = ({ rupee, firstHeading, secondHeading }) => {
+const Card = ({ Img, firstTxt, secondTxt }) => {
   return (
     <div>
       <div>
-        <img className='img' src={rupee} alt='' />
+        <img className='img' src={Img} alt='' />
         <div>
-          {firstHeading ? <p>{firstHeading}</p> : null}
-          <p> {secondHeading}</p>
+          <p>{firstTxt}</p>
+          <p> {secondTxt}</p>
         </div>
       </div>
     </div>

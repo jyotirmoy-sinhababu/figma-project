@@ -3,7 +3,7 @@ import Logo from '../utils/logo/Logo';
 
 import { NavLink } from 'react-router-dom';
 
-import vector from '../../image/Vector.svg';
+import profile from '../../image/profile.svg';
 
 const Nav = () => {
   return (
@@ -16,7 +16,7 @@ const Nav = () => {
           <NavLink className='link'>My Assignment</NavLink>
           <NavLink className='link'>Chat with Mentor</NavLink>
           <div className='profile-cnt'>
-            <img className='' src={vector} alt=' logo' />
+            <img className='' src={profile} alt=' logo' />
             <NavLink className='link'>Profile Name</NavLink>
           </div>
         </div>

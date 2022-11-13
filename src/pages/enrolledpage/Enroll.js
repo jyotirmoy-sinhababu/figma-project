@@ -20,6 +20,9 @@ const Enroll = () => {
           <EnrolledFriend name={'Pradul Kumar'} amount={'₹485'} />
         </div>
       </div>
+      <div className='terms-cnt'>
+        <h3 className='terms-txt'>Terms & Conditions</h3>
+      </div>
     </>
   );
 };

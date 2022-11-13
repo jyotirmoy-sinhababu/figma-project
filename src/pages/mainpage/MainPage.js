@@ -41,6 +41,10 @@ const MainPage = () => {
           secondTxt={'Using your REFERRAL CODE in the payment page'}
         />
       </div>
+      <div className='page-end'>
+        <p>Friends Who Enrolled</p>
+        <p>Terms & Conditions</p>
+      </div>
       <Outlet />
     </>
   );

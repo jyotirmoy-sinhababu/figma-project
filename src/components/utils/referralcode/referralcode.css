@@ -1,0 +1,77 @@
+.code-cnt {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.code-txt {
+  width: 150px;
+  height: 24px;
+  left: 187px;
+  top: 151px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #800080;
+}
+
+.code-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  padding: 10px;
+  border-radius: 7px;
+  width: 224px;
+  height: 24px;
+}
+
+.code {
+  left: 15px;
+  top: 13px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.75em;
+  color: #000000;
+}
+
+.cnt-data {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 145px;
+  height: 85px;
+  left: 1034px;
+  top: 151px;
+
+  background: #ffffff;
+  box-shadow: 0px 2px 8px rgba(128, 0, 128, 0.15);
+  border-radius: 20px;
+}
+
+.cnt-txt {
+  width: 105px;
+  height: 21px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #800080;
+}
+
+.cnt-num {
+  width: 45px;
+  height: 24px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+}

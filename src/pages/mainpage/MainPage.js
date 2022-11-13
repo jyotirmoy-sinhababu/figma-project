@@ -9,15 +9,16 @@ import Nav from '../../components/navbar/Nav';
 import Header from '../../components/header/Header';
 import TopPortion from '../../components/topportion/TopPortion';
 import Card from '../../components/card/Card';
-import { Outlet } from 'react-router-dom';
 const MainPage = () => {
   return (
     <>
       <Nav />
       <Header txtContent={'UI/UX > Refer & Earn'} />
       <TopPortion />
+      <div className='first-heading-cnt'>
+        <h3 className='first-heading'>How does it work?</h3>
+      </div>
       <div className='card-cnt'>
-        <h3>How does it work?</h3>
         <Card
           Img={community}
           firstTxt={'Invite your Friends'}
@@ -42,10 +43,9 @@ const MainPage = () => {
         />
       </div>
       <div className='page-end'>
-        <p>Friends Who Enrolled</p>
-        <p>Terms & Conditions</p>
+        <p className='page-end-txt'>Friends Who Enrolled</p>
+        <p className='page-end-txt'>Terms & Conditions</p>
       </div>
-      <Outlet />
     </>
   );
 };

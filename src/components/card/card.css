@@ -1,0 +1,13 @@
+.main-card-cnt {
+  display: flex;
+  gap: 0.8rem;
+}
+.img-cnt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 65px;
+  height: 65px;
+  background: rgba(217, 217, 217, 0.25);
+  border-radius: 50%;
+}

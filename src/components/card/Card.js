@@ -2,13 +2,13 @@ import './card.css';
 
 const Card = ({ Img, firstTxt, secondTxt }) => {
   return (
-    <div>
-      <div>
+    <div className='main-card-cnt'>
+      <div className='img-cnt'>
         <img className='img' src={Img} alt='' />
-        <div>
-          <p>{firstTxt}</p>
-          <p> {secondTxt}</p>
-        </div>
+      </div>
+      <div className='txt-cnt'>
+        <p className='first-txt'>{firstTxt}</p>
+        <p className='second-txt'> {secondTxt}</p>
       </div>
     </div>
   );

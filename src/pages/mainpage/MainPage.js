@@ -9,6 +9,7 @@ import Nav from '../../components/navbar/Nav';
 import Header from '../../components/header/Header';
 import TopPortion from '../../components/topportion/TopPortion';
 import Card from '../../components/card/Card';
+import { NavLink } from 'react-router-dom';
 const MainPage = () => {
   return (
     <>
@@ -43,7 +44,9 @@ const MainPage = () => {
         />
       </div>
       <div className='page-end'>
-        <p className='page-end-txt'>Friends Who Enrolled</p>
+        <NavLink to='/enroll' className='page-end-link'>
+          Friends Who Enrolled
+        </NavLink>
         <p className='page-end-txt'>Terms & Conditions</p>
       </div>
     </>

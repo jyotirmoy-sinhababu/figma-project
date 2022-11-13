@@ -32,6 +32,19 @@
   padding-top: 30px;
 }
 
+.page-end-link {
+  width: 168px;
+  height: 24px;
+  left: 187px;
+  top: 799px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-decoration: none;
+  color: #800080;
+}
+
 .page-end-txt {
   width: 168px;
   height: 24px;

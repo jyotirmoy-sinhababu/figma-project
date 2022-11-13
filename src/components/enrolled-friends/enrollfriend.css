@@ -1,0 +1,9 @@
+.data-cnt {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  width: 358px;
+  height: 228px;
+  background: linear-gradient(270deg, #800080 0%, #ff864c 100%);
+  border-radius: 20px;
+}

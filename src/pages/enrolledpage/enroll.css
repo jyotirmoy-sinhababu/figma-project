@@ -1,0 +1,25 @@
+.heading-cnt {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.heading {
+  padding-left: 320px;
+  width: 241px;
+  height: 30px;
+  left: 189px;
+  top: 296px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+
+  color: #800080;
+}
+
+.enrolled-ctn {
+  display: flex;
+  gap: 2rem;
+  padding-left: 320px;
+}

@@ -1,7 +1,10 @@
 .code-cnt {
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  padding-left: 320px;
+  width: 100%;
+  max-width: 1366px;
+  gap: 30rem;
 }
 
 .code-txt {
